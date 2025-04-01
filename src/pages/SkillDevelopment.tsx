@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Briefcase, Code, MessageSquare, Sparkles } from 'lucide-react';
 import PageLayout from '@/components/layout/PageLayout';
@@ -6,6 +5,7 @@ import HeroSection from '@/components/sections/HeroSection';
 import VideoCard from '@/components/sections/VideoCard';
 import VideoDialog from '@/components/dialogs/VideoDialog';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { Card, CardHeader, CardFooter, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
 
 // Mock data for videos
 const videos = {
